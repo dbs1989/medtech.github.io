@@ -1,4 +1,5 @@
 const commentsDiv = document.getElementById("comments")
+port = process.env.PORT || 3000;
 const url = 'http://localhost:3000/comments'
 
 fetch(url)
