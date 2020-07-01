@@ -1,5 +1,6 @@
 const commentsDiv = document.getElementById("comments")
 const url = 'http://localhost:3000/comments'
+
 fetch(url)
 .then(response => response.json())
 .then(function(data) {
