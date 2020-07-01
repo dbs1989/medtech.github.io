@@ -1,6 +1,5 @@
 const commentsDiv = document.getElementById("comments")
-port = process.env.PORT || 3000;
-const url = 'http://localhost:3000/comments'
+const url = 'http://taina-teste.herokuapp.com/comments'
 
 fetch(url)
 .then(response => response.json())
